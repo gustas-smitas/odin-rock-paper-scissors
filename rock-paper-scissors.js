@@ -70,11 +70,11 @@ function playGame() {
   console.log("---FINAL RESULT---");
   
   if (humanScore > computerScore) {
-    console.log("You win the game!");
+    console.log("🏆 You win the game!");
   } else if (humanScore < computerScore) {
-    console.log("Computer wins the game!");
+    console.log("💻 Computer wins the game!");
   } else {
-    console.log("It ends in a draw!");
+    console.log("🤝 It ends in a tie!");
     
   }
 }
